@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logocali.png';
 import './App.css';
 
 function App() {
@@ -6,8 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <p className="txt">
+          Calilegua Tienda de Accesorios
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+         VER MAS
         </a>
       </header>
     </div>
