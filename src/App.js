@@ -1,25 +1,16 @@
-import logo from './logocali.png';
-import './App.css';
+ 
+import '../src/App.css'
+import { NavBar } from './components/navbar/NavBar'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p className="txt">
-          Calilegua Tienda de Accesorios
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-         VER MAS
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App = () => {
+     return (
+          <div>
+            <NavBar/>
+          
+          </div>
+     );
 }
 
 export default App;

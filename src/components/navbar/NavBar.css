@@ -1,0 +1,45 @@
+
+.contenedor{
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.barra{
+    
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.fondo {
+    background-color: rgb(247, 247, 247);
+    border-bottom: 2px goldenrod solid;
+}
+
+nav ul{
+   display: flex;
+   gap:3rem;
+}
+
+.log {
+    height: 60px;
+    padding: 20px ;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    cursor:pointer;
+    color:goldenrod ;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px goldenrod;
+    }
+
+a:hover{
+    color:black;
+}    
